@@ -1,12 +1,10 @@
-#!/bin/bash
 
-set -e
 # Build the docker image
 docker build -t simple-backend:dev . &>/dev/null
 
 # Run the containers
 mkdir -p nginx/cache &>/dev/null
-touch nginx/error.log &>/dev/null
+ni nginx/error.log &>/dev/null
 
 docker compose up -d &>/dev/
 
