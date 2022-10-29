@@ -1,6 +1,6 @@
 **Q: How long did it take to finish the test?**
 
-A: 3 Afternoons, around 10 hours.
+A: Around 10 hours.
 
 **Q: If you had more time, how could you improve your solution?**
 
