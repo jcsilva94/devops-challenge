@@ -1,0 +1,59 @@
+{
+    "name": "Juan Carlos",
+    "last_name": "Silva Hernández",
+    "username": "jcsilva94",
+    "level": 28,
+    "race": "Human",
+    "class": "Software Engineer",
+    "hobbies": [
+        "Gaming",
+        "Pets",
+        "Leisure programming",
+        "Family",
+        "Reading",
+        "Darts",
+        "Movies/Series"
+    ],
+    "soft_skills": [
+        "Leadership",
+        "Teamwork",
+        "Open-minded",
+        "Objective-driven",
+        "Good attitude",
+        "Performance under pressure"
+    ],
+    "skills": {
+        "programming_languages": [
+            "Python",
+            "C#",
+            "Javascript"
+        ],
+        "frameworks": [
+            "Angular",
+            ".NET Core",
+            "ASP.NET",
+            "ExpressJS"
+        ],
+        "technologies": [
+            "Kubernetes",
+            "Docker",
+            "Docker-compose",
+            "CI/CD",
+            "Azure",
+            "GraphQL",
+            "REST API",
+            "Octopus Deploy",
+            "Git",
+            "KeyCloak",
+            "RabbitMQ"
+        ]
+    },
+    "weaknesses": [
+        "Lack of coffee",
+        "Alarm clocks",
+        "Summer",
+        "Suffering micromanagement",
+        "Lack of requirements",
+        "Atlassian"
+    ]
+}

@@ -8,23 +8,15 @@ Docker is assumed to be installed in wherever this is launched. Should work on b
 
 If you don't have docker installed please go [here](https://www.docker.com/products/docker-desktop/) and install whatever version is suitable for your OS.
 
-
-
 ## Usage
 
-The launch script for deploying the containers and executing the `curl` commands is `deploy.ps1`, which is written in Powershell. If you are on Linux, make sure you have powershell installed, or alternatively, use the `deploy.sh`
+**IMPORTANT** Don't forget to install the certificate `ca.crt` on your machine, or it won't be trusted and thus won't even try to send HTTPS requests through `curl`
 
-If launching the solution this way, jq is mandatory, which can be found and installed following the documentation on the official page [here](https://stedolan.github.io/jq/download/). It's a tool that parses json responses through command line.
+The launch script for deploying the containers and executing the `curl` commands is `deploy.ps1`, which is written in Powershell. If you are on Linux, make sure you have Powershell installed, should work for version `5.x` and `7.x`.
 
-Once everything is setup, make sure you give execute permissions to the `deploy.sh` script located in this folder.
-```
-chmod +x deploy.sh
-```
+For Linux a simple `chmod +x deploy.ps1` will allow for script execution, but in Windows you will have to change the script execution policy in your system, which is by default disabled, for security reasons. To do so, open a Powershell admin terminal and paste `Set-ExecutionPolicy unrestricted`, and when asked say yes.
 
-This may seem obvious but it's always worth a reminder. After that, invoke the script.
+Once everything is in order, execute the script on a Powershell terminal.
 ```
-./deploy.sh
+.\deploy.ps1
 ```
-
-### Powershell
-To launch this deployment using
